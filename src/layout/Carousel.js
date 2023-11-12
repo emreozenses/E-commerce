@@ -2,8 +2,8 @@ import CarouselComp from "../components/CarouselComp";
 
 const Carousel = () => {
   return (
-    <div>
-      <CarouselComp />
+    <div className="h-[75vh] w-[95vw]" >
+      <CarouselComp/>
     </div>
   );
 };

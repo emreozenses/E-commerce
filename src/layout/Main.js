@@ -7,7 +7,7 @@ import ShopCards from "./ShopCards";
 
 const Main = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center max-h-fit">
       <Header />
       <ShopCards />
       <ProductCards />
